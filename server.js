@@ -55,4 +55,4 @@ app.post("/analyse", async (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`PureLabel server running on port ${PORT}`);
-});
+});setInterval(()=>{fetch(" https://purelabel-server.onrender.com/).catch(()=>{})},840000);
